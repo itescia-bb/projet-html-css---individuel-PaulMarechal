@@ -3,23 +3,38 @@
 		<head>
 	  			<meta charset="utf-8">
 	  			<title>CV de Paul Maréchal</title>
-	  			<link rel="stylesheet" href="style.css">
+	  			<link rel="stylesheet" href="CSS/style.css">
 		</head>
 
 		<body>
           <!-- exemple de commentaire -->
+          <section class="start">
               <header>
-                  <h1>Paul Maréchal</h1>
-                  <nav>
-                      <h2>Experiences</h2>
-                      <h2>Compétences</h2>
-                      <h2>Formations</h2>
-                      <h2>Hobbies</h2>
+                        <h1 class="nom">    Paul Maréchal</h1>
+                    </section>
+                  <nav class="section">
+                      <h2 class="sections"><a href="#exp">Experiences</a></h2>
+                      <h2 class="sections"><a href="#comp">Compétences</a></h2>
+                      <h2 class="sections1"><a href="#form">Formations</a></h2>
+                      <h2 class="sections1"><a href="#hobb">Hobbies</a></h2>
                   </nav>
               </header>
 
-              <main>
-                  <section class="experience">
+              <main class="contenu">
+                <div id="menuExp"><h2>Experience</h2></div>
+                  <section class="experience" id="exp">
+                <article id="fosca">
+                    <header><h3>Fosca</h3></header>
+                    <main>
+                        <p>
+                          Restaurant Italien situé en face de la gare de Lyon. <br>
+                          <ul>
+                              <li>Directeur de site</li>
+                          </ul>
+                        </p>
+                    </main>
+                    <footer>Date des années de travail</footer>
+                </article>
                   <article id="angelina">
                       <header><h3>Angelina</h3></header>
                       <main>
@@ -33,7 +48,9 @@
                       </main>
                       <footer>Date des années de travail</footer>
                   </article>
+            </section>
 
+                  <section class="experience1">
                   <article id="pullman">
                     <header><h3>Pullman Paris Montparnasse</h3></header>
                     <main>
@@ -53,56 +70,63 @@
                     <header><h3>Novotel Compans Caffarelli</h3></header>
                     <main>
                         <p>
-                          Hôtel situé dans le parc Compans Caffarelli & Jardin Japonais proche du centre des congrès. 
-                          <ul>
-                              <li>Chef de rang</li>
-                              <li>Responsable de bar</li>
-                          </ul>
+                            Hôtel situé dans le parc Compans Caffarelli & Jardin Japonais proche du centre des congrès. 
+                                <ul>
+                                    <li>Chef de rang</li>
+                                    <li>Responsable de bar</li>
+                                </ul>
                         </p>
                     </main>
                     <footer>Date des années de travail</footer>
                 </article>
             </section>
 
-            <section class="competences">
-                <article>
-                    <header><h3>Gestion d'equipes</h3></header>
-                    <main>
-                        <p>
-                            Gestion d'quipes pouvant aller jusqu'a 30 collaborateur. 
-                        </p>
-                    </main>
-                </article>
-                <article>
-                    <header><h3>Gestion du stress</h3></header>
-                    <main>
-                        <p>
-                            Participation et organisation de service de plus de 1200 couverts. 
-                        </p>
-                    </main>
-                </article>
-                <article>
-                    <header><h3>Animer des briefings</h3></header>
-                    <main>
-                        <p>
-                            Animation de briefings et repartitions des taches a effectuer pour la mise en place du service. <br>
-                            Controle des taches effectués et des actions a mettre en place pour une meilleur organisation et en fonction <br>
-                            des attentes de la direction generale.  
-                        </p>
-                    </main>
-                </article>
-                <article>
-                    <header><h3>Créer une carte</h3></header>
-                    <main>
-                        <p>
-                            Réalisation de menu et des fiches techniques pour un changement de style de restaurant. <br>
-                            Réalisation d'une nouvelle image de marque et d'un nouveau concept pour un restaurant Italien. 
-                        </p>
-                    </main>
+            <div id="menuExp"><h2>Compétences</h2></div>
+            <section class="competences" id="comp">
+                <section class="premiers">
+                    <article id="gestionEquipes">
+                        <header><h3>Gestion d'equipes</h3></header>
+                        <main>
+                            <p>
+                                Gestion d'quipes pouvant aller jusqu'a 30 collaborateur. 
+                            </p>
+                        </main>
+                    </article>
+                    <article id="stress">
+                        <header><h3>Gestion du stress</h3></header>
+                        <main>
+                            <p>
+                                Participation et organisation de service de plus de 1200 couverts. 
+                            </p>
+                        </main>
+                    </article>
+                </section>
+                <section class="seconds">
+                    <article id="briefing">
+                        <header><h3>Animer des briefings</h3></header>
+                        <main>
+                            <p>
+                                Animation de briefings et repartitions des taches a effectuer pour la mise en place du service. <br>
+                                Controle des taches effectués et des actions a mettre en place pour une meilleur organisation et en fonction <br>
+                                des attentes de la direction generale.  
+                            </p>
+                        </main>
+                    </article>
+                    <article id="carte">
+                        <header><h3>Créer une carte</h3></header>
+                        <main>
+                            <p>
+                                Réalisation de menu et des fiches techniques pour un changement de style de restaurant. <br>
+                                Réalisation d'une nouvelle image de marque et d'un nouveau concept pour un restaurant Italien. 
+                            </p>
+                        </main>
+                    </article>
+                </section>
             </section>
 
-            <section class="formations">
-                <article>
+            <div id="menuExp"><h2>Formations</h2></div>
+            <section class="formations" id="form">
+                <article id="itescia">
                     <header><h3>Analyste developpeur d'applications</h2></header>
                     <main>
                         <p>
@@ -114,7 +138,7 @@
                         </p>
                     </main>
                 </article>
-                <article>
+                <article id="bts">
                     <header><h3>Brevet de technitien supérieur</h2></header>
                     <main>
                         <p>
@@ -124,7 +148,9 @@
                         </p>
                     </main>
                 </article>
-                <article>
+            </section>
+                <section class="formationSecond">
+                <article id="bac">
                     <header><h3>Bac technologique</h2></header>
                     <main>
                         <p>
@@ -135,12 +161,16 @@
                         </p>
                     </main>
                 </article>
+            </section>
+            </section>
                 <article>
+                    <div id="menuExp"><h2>CV</h2></div>
                     <main>
-                        <p>Telecharger mon CV au format PDF : <a href="/Users/paulmarechal/Desktop/TestItescia/projet-html-css---individuel-PaulMarechal/projet-html-css---individuel-PaulMarechal/projetCV/CV .pdf" download="CV Paul Maréchal" download>CV Paul Maréchal </a></p>
+                        <p id="cv">Telecharger mon CV au format PDF : <a href="CSS/CV.pdf" download="CV Paul Maréchal" download>CV Paul Maréchal </a></p>
                     </main>
                 </article>
             </section>
+        
 
             <section class="contact">
                 
@@ -150,5 +180,6 @@
 
             </footer>
             </main>
+        </body>    
 	</html>
 

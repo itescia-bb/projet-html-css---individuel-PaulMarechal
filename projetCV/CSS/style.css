@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+
+
+body {
+    background: url("/Users/paulmarechal/Desktop/TestItescia/projet-html-css---individuel-PaulMarechal/projet-html-css---individuel-PaulMarechal/projetCV/CSS/herbe.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: justify;
+}
+
+.contenu {
+    background-color: white;
+    background: rgba(243, 239, 239, 0.5);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 1em;
+    
+}
+
+.nom {
+    text-align: center;
+    margin-block-start: 6em;
+    font-size: 2.3em;
+    
+}
+
+.section {
+    
+}
+
+#menuExp {
+    text-align: center;
+    align-items: center;
+    font-size: 1.5em;
+    padding-top: 0.1em;
+}
+
+.experience {
+    
+    margin-block-start: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border: 0px ;
+    padding: 20px;
+    padding-top: 7px;
+    padding-bottom: 1.5em;
+    padding-left: 0em;
+    padding-right: 1em;
+    display: flex;
+    justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background: rgba(243, 239, 239, 0.7);
+    padding-left: 1em;
+
+}
+
+.experience1 {
+    margin-left: 1em;
+    margin-right: 1em;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background: rgba(243, 239, 239, 0.7);
+    padding-bottom: 2em;
+}
+
+
+#fosca {
+    margin-block-start: 1em;
+    box-shadow: 6px 6px 6px black;
+    border-radius: 7px 7px 7px 7px;
+    width: 30%;
+    text-align: justify;
+    padding: 5px;
+    margin-left: 3px;
+    background-color: white;
+    
+
+}
+
+#angelina {
+    margin-block-start: 1em;
+    box-shadow: 6px 6px 6px black;
+    border-radius: 7px 7px 7px 7px;
+    width: 30%;
+    text-align: justify;
+    padding: 5px;
+    background-color: white;
+}
+
+#pullman {
+    margin-block-start: 1em;
+    box-shadow: 6px 6px 6px black;
+    border-radius: 7px 7px 7px 7px;
+    width: 30%;
+    text-align: justify;
+    padding: 5px;
+    background-color: white;
+}
+
+#novotel {
+    margin-block-start: 1em;
+    box-shadow: 6px 6px 6px black;
+    border-radius: 7px 7px 7px 7px;
+    width: 30%;
+    text-align: justify;
+    padding: 5px;
+    background-color: white;
+}
+
+.competences {
+    margin-block-start: 2em;
+    border: 0px ;
+    padding: 20px;
+    padding-top: 7px;
+    padding-bottom: 1.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.premiers {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background: rgba(243, 239, 239, 0.7);
+}
+
+.seconds {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 10px;
+    background: rgba(243, 239, 239, 0.7);
+    padding-bottom: 1.3em;
+}
+
+#gestionEquipes {
+    margin-block-start: 1em;
+    box-shadow: 6px 6px 6px black;
+    border-radius: 7px 7px 7px 7px;
+    width: 30%;
+    text-align: justify;
+    padding: 5px;
+    background-color: white;
+}
+
+#stress {
+    margin-block-start: 1em;
+    box-shadow: 6px 6px 6px black;
+    border-radius: 7px 7px 7px 7px;
+    width: 30%;
+    text-align: justify;
+    padding: 5px;
+    background-color: white;
+}
+
+#carte {
+    margin-block-start: 1em;
+    box-shadow: 6px 6px 6px black;
+    border-radius: 7px 7px 7px 7px;
+    width: 30%;
+    text-align: justify;
+    padding: 5px;
+    background-color: white;
+}
+
+#briefing {
+    margin-block-start: 1em;
+    box-shadow: 6px 6px 6px black;
+    border-radius: 7px 7px 7px 7px;
+    width: 30%;
+    text-align: justify;
+    padding: 5px;
+    background-color: white;
+}
+
+#itescia {
+    margin-block-start: 1em;
+    box-shadow: 6px 6px 6px black;
+    border-radius: 7px 7px 7px 7px;
+    width: 30%;
+    text-align: justify;
+    padding: 5px;
+    background-color: white;
+}
+
+#bts {
+    margin-block-start: 1em;
+    box-shadow: 6px 6px 6px black;
+    border-radius: 7px 7px 7px 7px;
+    width: 30%;
+    text-align: justify;
+    padding: 5px;
+    background-color: white;
+}
+
+#bac {
+    margin-block-start: 1em;
+    box-shadow: 6px 6px 6px black;
+    border-radius: 7px 7px 7px 7px;
+    width: 30%;
+    text-align: justify;
+    padding: 5px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formations {
+    background: rgba(243, 239, 239, 0.7);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 10px;
+    margin-block-start: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.formationSecond {
+    background: rgba(243, 239, 239, 0.7);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 1.3em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#cv {
+    background: rgba(243, 239, 239, 0.7);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 1.3em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+@media all and (max-width: 800px) {
+    h1 {
+        width: 80%;
+    }
+
+
+    .section {
+        display: flex;
+        flex-flow: row wrap;
+        margin-left: 7em;
+    }
+
+    
+    .sections {
+        width: 30%;
+        margin-left: 1em;
+        margin-right: 1em;
+        display: flex;
+        justify-content: space-around;
+        background: rgba(243, 239, 239, 0.7);
+        
+    }
+
+    .sections1 {
+        width: 30%;
+        margin-left: 1em;
+        margin-right: 1em;
+        display: flex;
+        justify-content: space-around;
+        background: rgba(243, 239, 239, 0.7);
+    }
+    
+
+    .photoPaul {
+        position: static;
+        margin-left: 10em;
+    }
+
+    .nom {
+        margin-left: 1.7em;
+    }
+}
