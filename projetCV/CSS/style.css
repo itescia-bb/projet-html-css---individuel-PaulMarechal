@@ -14,7 +14,7 @@ body {
 img {
     width: 20%;
     height: 20%;
-    margin-top: 6em;
+    margin-top: 9em;
     margin-left: 40%;
     margin-right: auto;
 }
@@ -46,7 +46,8 @@ a:visited {
 .nom {
     width: 30%;
     text-align: center;
-    margin-block-start: 0.5em;
+    margin-block-start: 1em;
+    margin-block-end: 1.3em;
     font-size: 3em;
     text-transform: uppercase;
     color: black;
@@ -290,6 +291,23 @@ h2 {
     margin-left: 1em;
     margin-right: 1em;
 }
+
+#hobb {
+    font-size: 1.5em;
+}
+
+#hobbys {
+    
+    background: rgba(243, 239, 239, 0.7);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: center;
+    word-spacing: 6rem;
+    
+}
+
 
 
 @media all and (max-width: 800px) {
