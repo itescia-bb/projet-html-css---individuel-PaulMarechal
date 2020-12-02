@@ -127,8 +127,6 @@ h2 {
     padding: 5px;
     margin-left: 3px;
     background-color: white;
-    
-
 }
 
 #angelina {
@@ -281,15 +279,16 @@ h2 {
     margin-right: 1em;
 }
 
-#cv {
+#infos {
     background: rgba(243, 239, 239, 0.7);
     display: flex;
     justify-content: center;
     flex-direction: row;
     padding-top: 10px;
-    padding-bottom: 1.3em;
+    padding-bottom: 1.1em;
     margin-left: 1em;
     margin-right: 1em;
+    line-height: 1.8em;
 }
 
 #hobb {
@@ -305,17 +304,49 @@ h2 {
     margin-right: 1em;
     text-align: center;
     word-spacing: 6rem;
+}
+
+.cop {
+    font-size: smaller;
+}
+
+#icon_git {
+    max-width: 15%;
+    max-height: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+}
+
+#button_git {
+    border: 3px black solid;
+    background: rgba(243, 239, 239, 0.5);
+    color: black;
+    margin-top: 1em;
+}
+
+#button_mail {
+    border: 3px black solid;
+    background: rgba(243, 239, 239, 0.5);
+    color: black;
+    margin-left: 37%;
+    
     
 }
 
-
+#button {
+    margin-left: 40%;
+    margin-bottom: 3em;
+    word-spacing: 5em;
+    
+}
 
 @media all and (max-width: 800px) {
     h1 {
         width: 80%;
     }
 
-    img {
+    #photoPolo {
         width: 40%;
         height: 40%;
         margin-top: 6em;
@@ -357,7 +388,6 @@ h2 {
         width: 50%;
         margin-left: auto;
         margin-right: auto;
-        
     }
 
     .hobbiess {
@@ -366,4 +396,132 @@ h2 {
         align-items: center;
         
     }
+
+    .contenu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experience {
+    
+        margin-block-start: 2em;
+        margin-left: 1em;
+        margin-right: 1em;
+        border: 0px ;
+        padding: 20px;
+        padding-top: 7px;
+        padding-bottom: 1.5em;
+        padding-left: 0em;
+        padding-right: 1em;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        background: rgba(243, 239, 239, 0.7);
+        padding-left: 1em;
+    }
+
+    .experience1 {
+        margin-left: 1em;
+        margin-right: 1em;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        background: rgba(243, 239, 239, 0.7);
+        padding-bottom: 2em;
+    }
+
+    #fosca {
+        width: 86%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    #angelina {
+        width: 86%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #pullman {
+        width: 80%;
+        margin-block-start: 0.02em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #novotel {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    
+    .premiers {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .seconds {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #gestionEquipes {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #stress {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #carte {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #briefing {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .formations {
+        margin-block-start: 1em;
+        width: 92%;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #itescia {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #bts {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1em;
+        
+    }
+    
+    #bac {
+        width: 80%;
+        margin-top: 0.01em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+
 }

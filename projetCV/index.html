@@ -1,7 +1,12 @@
 <!doctype html>
 	<html lang="fr">
 		<head>
-	  			<meta charset="utf-8">
+                  <meta charset="utf-8">
+                  <meta name="description" content="CV developpeur web : création et développement de sites internet & applications HTML5, CSS3, Java" />
+                  <meta name="author" content="Paul Maréchal"/>
+                  <meta name="google-site-verification" content=""/>
+                  <link rel="icon" href="/Users/paulmarechal/Desktop/TestItescia/projet-html-css---individuel-PaulMarechal/projet-html-css---individuel-PaulMarechal/projetCV/CSS/logo.png">
+
 	  			<title>CV de Paul Maréchal</title>
 	  			<link rel="stylesheet" href="CSS/style.css">
 		</head>
@@ -10,9 +15,8 @@
           <!-- exemple de commentaire -->
           <section class="start">
               <header>
-                        <img src="/Users/paulmarechal/Desktop/TestItescia/projet-html-css---individuel-PaulMarechal/projet-html-css---individuel-PaulMarechal/projetCV/CSS/photoPolo.png" alt="Photo de Paul Maréchal">
-                        <h1 class="nom">    Paul Maréchal</h1>
-                    </section>
+                    <img id="photoPolo" src="/Users/paulmarechal/Desktop/TestItescia/projet-html-css---individuel-PaulMarechal/projet-html-css---individuel-PaulMarechal/projetCV/CSS/photoPolo.png" alt="Photo de Paul Maréchal">
+                    <h1 class="nom">    Paul Maréchal</h1>
                   <nav class="section">
                       <h2 class="sections"><a href="#exp">Experiences</a></h2>
                       <h2 class="sections"><a href="#comp">Compétences</a></h2>
@@ -21,174 +25,173 @@
                   </nav>
               </header>
 
-              <main class="contenu">
+              <main class="contenu" id="exp">
                 <div id="menuExp"><h2>Experience</h2></div>
-                  <section class="experience" id="exp">
-                <article id="fosca">
-                    <header><h3>Fosca</h3></header>
-                    <main>
-                        <p>
-                          Restaurant Italien situé en face de la gare de Lyon. <br>
-                          <ul>
-                              <li>Directeur de site</li>
-                          </ul>
-                        </p>
-                    </main>
-                    <footer>Date des années de travail</footer>
-                </article>
-                  <article id="angelina">
-                      <header><h3>Angelina</h3></header>
-                      <main>
-                          <p>
-                            Maison historique du Mont-Blanc et du chocolat chaud depuis 1903. <br>
-                            Situé rue de Rivoli à Paris dans le premier arrondissement. 
-                            <ul>
-                                <li>Maître d'hôtel</li>
-                            </ul>
-                          </p>
-                      </main>
-                      <footer>Date des années de travail</footer>
-                  </article>
-            </section>
+                  <section class="experience">
+                        <article id="fosca">
+                            <header><h3>Fosca</h3></header>
+                                <main>
+                                    <p>
+                                    Restaurant Italien situé en face de la gare de Lyon. <br>
+                                    <ul>
+                                        <li>Directeur de site</li>
+                                    </ul>
+                                    </p>
+                                </main>
+                            <footer>Date des années de travail</footer>
+                        </article>
+                        <article id="angelina">
+                            <header><h3>Angelina</h3></header>
+                                <main>
+                                    <p>
+                                        Maison historique du Mont-Blanc et du chocolat chaud depuis 1903. <br>
+                                        Situé rue de Rivoli à Paris dans le premier arrondissement. 
+                                        <ul>
+                                            <li>Maître d'hôtel</li>
+                                        </ul>
+                                    </p>
+                                </main>
+                            <footer>Date des années de travail</footer>
+                        </article>
+                    </section>
 
-                  <section class="experience1">
-                  <article id="pullman">
-                    <header><h3>Pullman Paris Montparnasse</h3></header>
-                    <main>
-                        <p>
-                          Plus gros hôtel d'Europe avec 953 chambres, disposant d'un bar et un restaurant au<br> dernier etage de l'hôtel avec une vue sur tout Paris. 
-                          <ul>
-                              <li>Assistant responsable de salle</li>
-                              <li>Maître d'hôtel</li>
-                              <li>Chef de rang</li>
-                          </ul>
-                        </p>
-                    </main>
-                    <footer>Date des années de travail</footer>
-                </article>
+                    <section class="experience1">
+                        <article id="pullman">
+                            <header><h3>Pullman Paris Montparnasse</h3></header>
+                                <main>
+                                    <p>
+                                    Plus gros hôtel d'Europe avec 953 chambres, disposant d'un bar et un restaurant au<br> dernier etage de l'hôtel avec une vue sur tout Paris. 
+                                    <ul>
+                                        <li>Assistant responsable de salle</li>
+                                        <li>Maître d'hôtel</li>
+                                        <li>Chef de rang</li>
+                                    </ul>
+                                    </p>
+                                </main>
+                            <footer>Date des années de travail</footer>
+                        </article>
 
-                <article id="novotel">
-                    <header><h3>Novotel Compans Caffarelli</h3></header>
-                    <main>
-                        <p>
-                            Hôtel situé dans le parc Compans Caffarelli & Jardin Japonais proche du centre des congrès. 
-                                <ul>
-                                    <li>Chef de rang</li>
-                                    <li>Responsable de bar</li>
-                                </ul>
-                        </p>
-                    </main>
-                    <footer>Date des années de travail</footer>
-                </article>
-            </section>
+                        <article id="novotel">
+                            <header><h3>Novotel Compans Caffarelli</h3></header>
+                                <main>
+                                    <p>
+                                        Hôtel situé dans le parc Compans Caffarelli & Jardin Japonais proche du centre des congrès. 
+                                            <ul>
+                                                <li>Chef de rang</li>
+                                                <li>Responsable de bar</li>
+                                            </ul>
+                                    </p>
+                                </main>
+                            <footer>Date des années de travail</footer>
+                        </article>
+                    </section>
 
-            <div id="menuExp"><h2>Compétences</h2></div>
-            <section class="competences" id="comp">
-                <section class="premiers">
-                    <article id="gestionEquipes">
-                        <header><h3>Gestion d'equipes</h3></header>
-                        <main>
-                            <p>
-                                Gestion d'quipes pouvant aller jusqu'a 30 collaborateur. 
-                            </p>
-                        </main>
-                    </article>
-                    <article id="stress">
-                        <header><h3>Gestion du stress</h3></header>
-                        <main>
-                            <p>
-                                Participation et organisation de service de plus de 1200 couverts. 
-                            </p>
-                        </main>
-                    </article>
-                </section>
-                <section class="seconds">
-                    <article id="briefing">
-                        <header><h3>Animer des briefings</h3></header>
-                        <main>
-                            <p>
-                                Animation de briefings et repartitions des taches a effectuer pour la mise en place du service. <br>
-                                Controle des taches effectués et des actions a mettre en place pour une meilleur organisation et en fonction <br>
-                                des attentes de la direction generale.  
-                            </p>
-                        </main>
-                    </article>
-                    <article id="carte">
-                        <header><h3>Créer une carte</h3></header>
-                        <main>
-                            <p>
-                                Réalisation de menu et des fiches techniques pour un changement de style de restaurant. <br>
-                                Réalisation d'une nouvelle image de marque et d'un nouveau concept pour un restaurant Italien. 
-                            </p>
-                        </main>
-                    </article>
-                </section>
-            </section>
+                    <div id="menuExp"><h2 id="comp">Compétences</h2></div>
+                    <section class="competences">
+                        <section class="premiers">
+                            <article id="gestionEquipes">
+                                <header><h3>Gestion d'equipes</h3></header>
+                                <main>
+                                    <p>
+                                        Gestion d'quipes pouvant aller jusqu'a 30 collaborateur. 
+                                    </p>
+                                </main>
+                            </article>
+                            <article id="stress">
+                                <header><h3>Gestion du stress</h3></header>
+                                <main>
+                                    <p>
+                                        Participation et organisation de service de plus de 1200 couverts. 
+                                    </p>
+                                </main>
+                            </article>
+                        </section>
+                        <section class="seconds">
+                            <article id="briefing">
+                                <header><h3>Animer des briefings</h3></header>
+                                <main>
+                                    <p>
+                                        Animation de briefings et repartitions des taches a effectuer pour la mise en place du service. <br>
+                                        Controle des taches effectués et des actions a mettre en place pour une meilleur organisation et en fonction <br>
+                                        des attentes de la direction generale.  
+                                    </p>
+                                </main>
+                            </article>
+                            <article id="carte">
+                                <header><h3>Créer une carte</h3></header>
+                                <main>
+                                    <p>
+                                        Réalisation de menu et des fiches techniques pour un changement de style de restaurant. <br>
+                                        Réalisation d'une nouvelle image de marque et d'un nouveau concept pour un restaurant Italien. 
+                                    </p>
+                                </main>
+                            </article>
+                        </section>
+                    </section>
 
-            <div id="menuExp"><h2>Formations</h2></div>
-            <section class="formations" id="form">
-                <article id="itescia">
-                    <header><h3>Analyste developpeur d'applications</h2></header>
-                    <main>
-                        <p>
-                            <ul>
-                                <li>
-                                    Itescia / Coding Factory <br> Paris 
-                                </li>
-                            </ul>
-                        </p>
-                    </main>
-                </article>
-                <article id="bts">
-                    <header><h3>Brevet de technitien supérieur</h2></header>
-                    <main>
-                        <p>
-                            <ul>
-                                <li>College Saint-Martin <br> Amiens</li>
-                            </ul>
-                        </p>
-                    </main>
-                </article>
-            </section>
+                    <div id="menuExp" ><h2 id="form">Formations</h2></div>
+                    <section class="formations">
+                        <article id="itescia">
+                            <header><h3>Analyste developpeur d'applications</h2></header>
+                            <main>
+                                <p>
+                                    <ul>
+                                        <li>
+                                            Itescia / Coding Factory <br> Paris 
+                                        </li>
+                                    </ul>
+                                </p>
+                            </main>
+                        </article>
+                        <article id="bts">
+                            <header><h3>Brevet de technitien supérieur</h2></header>
+                            <main>
+                                <p>
+                                    <ul>
+                                        <li>College Saint-Martin <br> Amiens</li>
+                                    </ul>
+                                </p>
+                            </main>
+                        </article>
+                    </section>
                 <section class="formationSecond">
-                <article id="bac">
-                    <header><h3>Bac technologique</h2></header>
-                    <main>
-                        <p>
-                            <ul>
-                                <li>Lycée des métiers de l'hôtellerie et de la restauration <br>
-                                Jean Drouant <br> Paris </li>
-                            </ul>
-                        </p>
-                    </main>
-                </article>
+                    <article id="bac">
+                        <header><h3>Bac technologique</h2></header>
+                        <main>
+                            <p>
+                                <ul>
+                                    <li>Lycée des métiers de l'hôtellerie et de la restauration <br>
+                                    Jean Drouant <br> Paris </li>
+                                </ul>
+                            </p>
+                        </main>
+                    </article>
+                </section>
             </section>
-            </section>
-            <section>
-                <article>
-                    <header id="hobb"><h2>Hobbies</h2></header>
-                    <main>
-                        <p id="hobbys"> Musique         Voyages         Road-Trip         Cinématographie</p>
-                    </main>
-                </article>
-            </section> 
-                <article>
-                    <div id="menuExp"><h2>CV</h2></div>
-                    <main>
-                        <p id="cv">Télécharger mon CV au format PDF : <a href="CSS/CV.pdf" download="CV Paul Maréchal" download target="_blank" title="cliquez pour télécharger "> CV Paul Maréchal </a></p>
-                    </main>
-                </article>
-            </section>
-        
-
-            <section class="contact">
-                
-            </section>
+                <section>
+                    <article>
+                        <header id="hobb"><h2>Hobbies</h2></header>
+                        <main>
+                            <p id="hobbys"> Musique         Voyages         Road-Trip         Cinématographie</p>
+                        </main>
+                    </article>
+                </section> 
+                <section>
+                    <article>
+                        <div id="menuExp"><h2>Informations</h2></div>
+                        <main id="infos">
+                            <p id="cv">Télécharger mon CV au format PDF : <a href="CSS/CV.pdf" download="CV Paul Maréchal" download target="_blank" title="cliquez ici pour télécharger "> CV Paul Maréchal</a><br>
+                                <a id="button_mail" href="mailto:paulmarechal785#hotmail.fr" title="cliquez ici pour envoyer un mail">Mail</a> <a id="button_git" href="https://github.com/PaulMarechal" target="_blank" title="cliquez ici pour voir mes repos Git">GitHub</a></p>
+                        
+                        </main>
+                        <footer>
+                        </footer>
+                    </article>
+                </section>
 
             <footer>
-
+                <p class="cop">© Paul.M 2020</p>
             </footer>
-            </main>
         </body>    
 	</html>
 
