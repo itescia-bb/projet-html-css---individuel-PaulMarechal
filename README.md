@@ -1,2 +1,4 @@
-# html-css--kyoto-site--starter-code
-Modèle de démarrage pour l'exercice HTML/CSS. 
+# Semaine HTML / CSS 
+Modèle de CV en HTML / CSS ( +media-query ) 
+
+Itescia - Coding Factory 
