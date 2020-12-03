@@ -14,7 +14,7 @@ body {
 img {
     width: 20%;
     height: 20%;
-    margin-top: 9em;
+    margin-top: 8.1em;
     margin-left: 40%;
     margin-right: auto;
 }
@@ -60,9 +60,6 @@ a:visited {
 
 .section {
     display: flex;
-    flex-flow: row wrap;
-    margin-left: 5.5em;
-    display: flex;
     justify-content: space-around;
     margin-bottom: 3em;
 }
@@ -72,12 +69,17 @@ a:visited {
     background: rgba(243, 239, 239, 0.5);
 }
 
+.sections:hover, .sections1:hover {
+    background:rgba(243, 239, 239, 0.9) no-repeat;
+}
+
 .sections1 {
     border: 7px black solid;
     background: rgba(243, 239, 239, 0.5);
 }
 
-#menuExp {
+
+.menuExp {
     text-align: center;
     align-items: center;
     font-size: 1.5em;
@@ -91,71 +93,44 @@ h2 {
 .experience {
     
     margin-block-start: 2em;
-    margin-left: 1em;
-    margin-right: 1em;
-    border: 0px ;
-    padding: 20px;
+    padding: 16px;
     padding-top: 7px;
     padding-bottom: 1.5em;
-    padding-left: 0em;
-    padding-right: 1em;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     background: rgba(243, 239, 239, 0.7);
     padding-left: 1em;
-
+    padding-right: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 .experience1 {
-    margin-left: 1em;
-    margin-right: 1em;
+    padding: 5px;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     background: rgba(243, 239, 239, 0.7);
     padding-bottom: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 
-#fosca {
+
+
+#novotel, #pullman, #angelina, #fosca {
     margin-block-start: 1em;
     box-shadow: 6px 6px 6px black;
     border-radius: 7px 7px 7px 7px;
     width: 30%;
     text-align: justify;
     padding: 5px;
-    margin-left: 3px;
-    background-color: white;
-}
-
-#angelina {
-    margin-block-start: 1em;
-    box-shadow: 6px 6px 6px black;
-    border-radius: 7px 7px 7px 7px;
-    width: 30%;
-    text-align: justify;
-    padding: 5px;
-    background-color: white;
-}
-
-#pullman {
-    margin-block-start: 1em;
-    box-shadow: 6px 6px 6px black;
-    border-radius: 7px 7px 7px 7px;
-    width: 30%;
-    text-align: justify;
-    padding: 5px;
-    background-color: white;
-}
-
-#novotel {
-    margin-block-start: 1em;
-    box-shadow: 6px 6px 6px black;
-    border-radius: 7px 7px 7px 7px;
-    width: 30%;
-    text-align: justify;
-    padding: 5px;
+    padding-left: 1em;
+    padding-right: 1em;
     background-color: white;
 }
 
@@ -169,7 +144,7 @@ h2 {
     padding-right: 1em;
 }
 
-.premiers {
+.premiers, .seconds {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -177,65 +152,11 @@ h2 {
 }
 
 .seconds {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
     padding-top: 10px;
-    background: rgba(243, 239, 239, 0.7);
     padding-bottom: 1.3em;
 }
 
-#gestionEquipes {
-    margin-block-start: 1em;
-    box-shadow: 6px 6px 6px black;
-    border-radius: 7px 7px 7px 7px;
-    width: 30%;
-    text-align: justify;
-    padding: 5px;
-    background-color: white;
-}
-
-#stress {
-    margin-block-start: 1em;
-    box-shadow: 6px 6px 6px black;
-    border-radius: 7px 7px 7px 7px;
-    width: 30%;
-    text-align: justify;
-    padding: 5px;
-    background-color: white;
-}
-
-#carte {
-    margin-block-start: 1em;
-    box-shadow: 6px 6px 6px black;
-    border-radius: 7px 7px 7px 7px;
-    width: 30%;
-    text-align: justify;
-    padding: 5px;
-    background-color: white;
-}
-
-#briefing {
-    margin-block-start: 1em;
-    box-shadow: 6px 6px 6px black;
-    border-radius: 7px 7px 7px 7px;
-    width: 30%;
-    text-align: justify;
-    padding: 5px;
-    background-color: white;
-}
-
-#itescia {
-    margin-block-start: 1em;
-    box-shadow: 6px 6px 6px black;
-    border-radius: 7px 7px 7px 7px;
-    width: 30%;
-    text-align: justify;
-    padding: 5px;
-    background-color: white;
-}
-
-#bts {
+#carte, #briefing, #stress, #gestionEquipes, #itescia, #bts, #bac {
     margin-block-start: 1em;
     box-shadow: 6px 6px 6px black;
     border-radius: 7px 7px 7px 7px;
@@ -246,13 +167,6 @@ h2 {
 }
 
 #bac {
-    margin-block-start: 1em;
-    box-shadow: 6px 6px 6px black;
-    border-radius: 7px 7px 7px 7px;
-    width: 30%;
-    text-align: justify;
-    padding: 5px;
-    background-color: white;
     margin-left: auto;
     margin-right: auto;
 }
@@ -273,7 +187,6 @@ h2 {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    padding-top: 10px;
     padding-bottom: 1.3em;
     margin-left: 1em;
     margin-right: 1em;
@@ -296,7 +209,6 @@ h2 {
 }
 
 #hobbys {
-    
     background: rgba(243, 239, 239, 0.7);
     padding-top: 20px;
     padding-bottom: 20px;
@@ -318,40 +230,76 @@ h2 {
     flex-direction: row;
 }
 
+#button_Link {
+    border: 3px black solid;
+    background: rgba(243, 239, 239, 0.5);
+    color: black;
+    margin-top: 1em;
+    word-spacing: 5em;
+    margin-left: 6%;
+}
+
 #button_git {
     border: 3px black solid;
     background: rgba(243, 239, 239, 0.5);
     color: black;
     margin-top: 1em;
+    margin-left: 5%;
+}
+
+#button_git:hover, #button_mail:hover, #button_Link:hover  {
+    background:rgba(243, 239, 239, 1) no-repeat;
 }
 
 #button_mail {
     border: 3px black solid;
     background: rgba(243, 239, 239, 0.5);
     color: black;
-    margin-left: 37%;
-    
-    
+    margin-left: 30%;  
 }
 
-#button {
-    margin-left: 40%;
-    margin-bottom: 3em;
-    word-spacing: 5em;
-    
-}
+/************************ Responsive pour Iphone X ******************/ 
+/**** Raffraichir la page si passage d'un mode Desktop à Iphone X ***/ 
 
-@media all and (max-width: 800px) {
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+
     h1 {
         width: 80%;
+    }
+
+    h2 {
+        font-size: 250%;
+    }
+
+    h3 {
+        font-size: 130%;
+    }
+
+    article#itescia {
+        font-size: 172%;
+    }
+
+    article#bts {
+        font-size: 170%;
+    }
+
+    p {
+        width: 100%;
     }
 
     #photoPolo {
         width: 40%;
         height: 40%;
         margin-top: 6em;
-        margin-left: 8.5em;
+        margin-left: 16.3em;
         margin-right: auto;
+    }
+
+    main#infos {
+        font-size: 235%;
     }
 
 
@@ -359,13 +307,14 @@ h2 {
         display: flex;
         flex-flow: row wrap;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: 1em;
     }
 
     
     .sections {
         text-decoration-color: black;
-        width: 33%;
+        width: 43%;
+        height: 30%;
         margin-left: auto;
         margin-right: auto;
         display: flex;
@@ -375,7 +324,7 @@ h2 {
     }
 
     .sections1 {
-        width: 33%;
+        width: 43%;
         margin-left: auto;
         margin-right: auto;
         display: flex;
@@ -390,13 +339,6 @@ h2 {
         margin-right: auto;
     }
 
-    .hobbiess {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        
-    }
-
     .contenu {
         display: flex;
         flex-direction: column;
@@ -405,20 +347,13 @@ h2 {
 
     .experience {
     
-        margin-block-start: 2em;
         margin-left: 1em;
         margin-right: 1em;
-        border: 0px ;
-        padding: 20px;
-        padding-top: 7px;
-        padding-bottom: 1.5em;
-        padding-left: 0em;
-        padding-right: 1em;
         display: flex;
         justify-content: space-around;
         flex-direction: column;
         background: rgba(243, 239, 239, 0.7);
-        padding-left: 1em;
+        padding-bottom: 2em;
     }
 
     .experience1 {
@@ -431,63 +366,158 @@ h2 {
         padding-bottom: 2em;
     }
 
-    #fosca {
-        width: 86%;
+    #angelina, #fosca {
+        width: 85%;
         margin-left: auto;
         margin-right: auto;
-        
+    }
+    
+    #pullman {
+        margin-block-start: 0.02em;
     }
 
-    #angelina {
+    .premiers, .seconds {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #pullman, #novotel {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #carte, #briefing, #stress, #gestionEquipes, #itescia, #bts, #bac {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .formations {
+        margin-block-start: 1em;
+        width: 96%;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #bts {
+        margin-bottom: 1em;
+    }
+    
+    #bac {
+        margin-top: 0.01em;
+    }
+
+    #comp {
+        margin-top: 1em;
+        padding-top: 1em;
+    }
+
+    #cv {
+        padding-left: 1.3em;
+    }
+
+    #infos {
+        width: 100%;
+        font-size: 200%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    a#button_mail {
+        margin-left: 4em;
+        margin-right: auto;
+    }
+
+    #hobbys {
+        width: 97%;
+    }
+}
+
+/** Responsive pour la taille d'une fenetre inferieur a 800px **/ 
+
+@media all and (max-width: 800px) {
+    h1 {
+        width: 80%;
+    }
+
+    #photoPolo {
+        width: 40%;
+        height: 40%;
+        margin-top: 6em;
+        margin-left: 8.5em;
+        margin-right: auto;
+    }
+
+    .section {
+        display: flex;
+        flex-flow: row wrap;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
+    .sections {
+        width: 33%;
+    }
+
+    .sections1 {
+        width: 33%;
+    }
+    
+
+    .nom {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hobbiess {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .contenu {
+        align-items: center;
+    }
+
+    .experience, .contenu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .experience1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #angelina, #fosca {
         width: 86%;
         margin-left: auto;
         margin-right: auto;
     }
     
     #pullman {
-        width: 80%;
         margin-block-start: 0.02em;
-        margin-left: auto;
-        margin-right: auto;
     }
     
-    #novotel {
-        width: 80%;
+    #novotel, #pullman {
+        width: 86%;
         margin-left: auto;
         margin-right: auto;
     }
 
-
-    
-    .premiers {
+    .premiers, .seconds {
         display: flex;
         flex-direction: column;
     }
     
-    .seconds {
-        display: flex;
-        flex-direction: column;
-    }
 
-    #gestionEquipes {
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    #stress {
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    #carte {
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    #briefing {
+
+    #gestionEquipes, #stress, #carte, #briefing {
         width: 80%;
         margin-left: auto;
         margin-right: auto;
@@ -502,25 +532,23 @@ h2 {
         margin-right: auto;
     }
 
-    #itescia {
+    .formationSecond {
+        width: 92%;
+    }
+
+    #itescia, #bts, #bac {
         width: 80%;
         margin-left: auto;
         margin-right: auto;
     }
     
     #bts {
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 1em;
+        margin-bottom: 0.5em;
         
     }
     
     #bac {
-        width: 80%;
-        margin-top: 0.01em;
-        margin-left: auto;
-        margin-right: auto;
+        margin-bottom: 1em;
     }
 
     #hobbys {
